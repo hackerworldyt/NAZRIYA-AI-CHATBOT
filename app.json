@@ -5,20 +5,13 @@
   "keywords" : [
     "python",
     "ai-bot",
-    "nazriyaai",
+    "telegram-ai-bot",
+    "telegram-bot",
     "pyrogram",
     "arq"
   ],
   "stack": "heroku-20",
   "env": {
-    "api_id": {
-           "description": "Get this value from my.telegram.org",
-           "value": ""
-        },
-    "api_hash": {
-           "description": "Get this value from my.telegram.org",
-           "value": ""
-        },
     "bot_token": {
            "description": "Your Bot's Api Token ,Get it from @BotFather",
            "required": true
@@ -28,7 +21,7 @@
            "required": true
     },
     "LANGUAGE": {
-           "description": "Language of Chat Bot you can choose as your wish I choose en for english,list --> https://py-googletrans.readthedocs.io/en/latest/#googletrans-languages",
+           "description": "Language of Chat Bot ,list --> https://py-googletrans.readthedocs.io/en/latest/#googletrans-languages",
            "value": "en",
            "required": true
     },
