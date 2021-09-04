@@ -3,7 +3,7 @@ HEROKU = True # if not make as false not reqitlred almost
 if HEROKU:
     from os import environ
 
-    bot_token = environ["BOT_TOKEN"]
+    bot_token = environ["bot_token"]
     ARQ_API_KEY = environ["ARQ_API_KEY"]
     LANGUAGE = environ["LANGUAGE"]
 
