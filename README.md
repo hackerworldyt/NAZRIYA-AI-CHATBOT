@@ -14,9 +14,6 @@
 - `LANGUAGE` - Choose your language code from [HERE](https://py-googletrans.readthedocs.io/en/latest/#googletrans-languages) 
 - `ARQ_API_BASE_URL` - Don't change this war [https://thearq.tech](https://thearq.tech) 
 
-# DEPLOY TO HEROKU
-
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MR-JINN-OF-TG/NAZRIYA-AI-CHATBOT)
 
 
 
