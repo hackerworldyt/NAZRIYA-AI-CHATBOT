@@ -1,46 +1,22 @@
 {
   "name": "NAZRIYA-AI-CHATBOT",
-  "description": "AN AI CHAT BOT TO TALK WITH YOU CAN SEEN ON TG AS @NAZRIYAAIBOT.",
+  "description": "AI chat bot of nazriya",
+  "logo": "https://telegra.ph/file/658a28e5e1e735caab141.png",
+  "keywords": ["aichatbot", "chatbot", "telegram"],
   "repository": "https://github.com/MR-JINN-OF-TG/NAZRIYA-AI-CHATBOT",
-  "keywords" : [
-    "python",
-    "ai-bot",
-    "nazriyaai",
-    "pyrogram",
-    "arq"
-  ],
-  "stack": "heroku-20",
+  "buildpacks": [{
+  "url": "heroku/python"
+  }],
+  "formation": {
+  "worker": {
+  "quantity": 1,
+  "size": "free"
+        }
+    },
   "env": {
-    "api_id": {
-           "description": "Get this value from my.telegram.org",
-           "value": ""
-        },
-    "api_hash": {
-           "description": "Get this value from my.telegram.org",
-           "value": ""
-        },
-    "bot_token": {
-           "description": "Your Bot's Api Token ,Get it from @BotFather",
-           "required": true
-    },
-    "ARQ_API_KEY": {
-           "description": "Get this from @ARQRobot",
-           "required": true
-    },
-    "LANGUAGE": {
-           "description": "Language of Chat Bot you can choose as your wish I choose en for english,list --> https://py-googletrans.readthedocs.io/en/latest/#googletrans-languages",
-           "value": "en",
-           "required": true
-    },
-    "ARQ_API_BASE_URL": {
-           "description": "ARQ URL ,Don't Change It",
-           "value": "https://thearq.tech",
-           "required": true
+    "BOT_TOKEN": {
+      "description": "A Bot Token from @BotFather",
+      "required": true
     }
-  },
-  "buildpacks": [
-   {
-    "url": "heroku/python"
-   }
-  ]
+  }
 }
