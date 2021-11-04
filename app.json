@@ -3,7 +3,7 @@
   "description": "Open-Source bot for Aichat bot",
   "logo": "https://telegra.ph/file/94b5bcc6d4a585940918b.jpg",
   "keywords": ["aichatbot", "nazriya", "telegram"],
-  "repository": "https://github.com/MR-JINN-OF-TG/NAZRIYAAIBOT",
+  "repository": "https://github.com/MR-JINN-OF-TG/NAZRIYA-AI-CHATBOT",
   "buildpacks": [{
   "url": "heroku/python"
   }],
